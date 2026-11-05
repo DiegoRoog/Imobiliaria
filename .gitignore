@@ -1,0 +1,44 @@
+node_modules/
+.next/
+out/
+assets-original/
+*.tsbuildinfo
+*.log
+test-results/
+
+# Dependências, saídas e arquivos gerados
+.turbo/
+.cache/
+coverage/
+next-env.d.ts
+
+# Configurações e credenciais locais
+.env
+.env.*
+.npmrc
+.vercel/
+.idea/
+.vscode/
+.agents/
+.claude/
+.codex/
+.gemini/
+.aws/
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Materiais e arquivos de trabalho locais
+/docs/
+/scripts/
+*.zip
+*.bak
+*.backup
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db

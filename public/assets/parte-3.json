@@ -1,0 +1,684 @@
+{
+  "id": "parte-3",
+  "count": 66,
+  "width": 1920,
+  "height": 1080,
+  "sourceBytes": 82284009,
+  "optimizedBytes": 5694180,
+  "sampleIndices": [
+    0,
+    6,
+    12,
+    18,
+    24,
+    30,
+    35,
+    41,
+    47,
+    53,
+    59,
+    65
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "source": "assets-original/parte-3/ezgif-frame-001.png",
+      "src": "/assets/parte-3/ezgif-frame-001.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1019788,
+      "bytes": 67980
+    },
+    {
+      "index": 1,
+      "source": "assets-original/parte-3/ezgif-frame-002.png",
+      "src": "/assets/parte-3/ezgif-frame-002.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1011107,
+      "bytes": 67738
+    },
+    {
+      "index": 2,
+      "source": "assets-original/parte-3/ezgif-frame-003.png",
+      "src": "/assets/parte-3/ezgif-frame-003.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1007267,
+      "bytes": 67594
+    },
+    {
+      "index": 3,
+      "source": "assets-original/parte-3/ezgif-frame-004.png",
+      "src": "/assets/parte-3/ezgif-frame-004.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1028878,
+      "bytes": 68090
+    },
+    {
+      "index": 4,
+      "source": "assets-original/parte-3/ezgif-frame-005.png",
+      "src": "/assets/parte-3/ezgif-frame-005.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 990022,
+      "bytes": 66746
+    },
+    {
+      "index": 5,
+      "source": "assets-original/parte-3/ezgif-frame-006.png",
+      "src": "/assets/parte-3/ezgif-frame-006.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 977714,
+      "bytes": 66158
+    },
+    {
+      "index": 6,
+      "source": "assets-original/parte-3/ezgif-frame-007.png",
+      "src": "/assets/parte-3/ezgif-frame-007.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 982314,
+      "bytes": 62794
+    },
+    {
+      "index": 7,
+      "source": "assets-original/parte-3/ezgif-frame-008.png",
+      "src": "/assets/parte-3/ezgif-frame-008.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 938789,
+      "bytes": 61372
+    },
+    {
+      "index": 8,
+      "source": "assets-original/parte-3/ezgif-frame-009.png",
+      "src": "/assets/parte-3/ezgif-frame-009.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 951739,
+      "bytes": 61094
+    },
+    {
+      "index": 9,
+      "source": "assets-original/parte-3/ezgif-frame-010.png",
+      "src": "/assets/parte-3/ezgif-frame-010.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 950256,
+      "bytes": 60848
+    },
+    {
+      "index": 10,
+      "source": "assets-original/parte-3/ezgif-frame-011.png",
+      "src": "/assets/parte-3/ezgif-frame-011.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 939186,
+      "bytes": 60696
+    },
+    {
+      "index": 11,
+      "source": "assets-original/parte-3/ezgif-frame-012.png",
+      "src": "/assets/parte-3/ezgif-frame-012.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 944482,
+      "bytes": 60600
+    },
+    {
+      "index": 12,
+      "source": "assets-original/parte-3/ezgif-frame-013.png",
+      "src": "/assets/parte-3/ezgif-frame-013.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 973838,
+      "bytes": 61786
+    },
+    {
+      "index": 13,
+      "source": "assets-original/parte-3/ezgif-frame-014.png",
+      "src": "/assets/parte-3/ezgif-frame-014.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1009343,
+      "bytes": 63850
+    },
+    {
+      "index": 14,
+      "source": "assets-original/parte-3/ezgif-frame-015.png",
+      "src": "/assets/parte-3/ezgif-frame-015.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1007892,
+      "bytes": 65326
+    },
+    {
+      "index": 15,
+      "source": "assets-original/parte-3/ezgif-frame-016.png",
+      "src": "/assets/parte-3/ezgif-frame-016.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 993665,
+      "bytes": 65646
+    },
+    {
+      "index": 16,
+      "source": "assets-original/parte-3/ezgif-frame-017.png",
+      "src": "/assets/parte-3/ezgif-frame-017.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1016067,
+      "bytes": 65652
+    },
+    {
+      "index": 17,
+      "source": "assets-original/parte-3/ezgif-frame-018.png",
+      "src": "/assets/parte-3/ezgif-frame-018.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1010486,
+      "bytes": 65884
+    },
+    {
+      "index": 18,
+      "source": "assets-original/parte-3/ezgif-frame-019.png",
+      "src": "/assets/parte-3/ezgif-frame-019.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1030082,
+      "bytes": 66108
+    },
+    {
+      "index": 19,
+      "source": "assets-original/parte-3/ezgif-frame-020.png",
+      "src": "/assets/parte-3/ezgif-frame-020.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1052764,
+      "bytes": 68748
+    },
+    {
+      "index": 20,
+      "source": "assets-original/parte-3/ezgif-frame-021.png",
+      "src": "/assets/parte-3/ezgif-frame-021.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1043727,
+      "bytes": 68872
+    },
+    {
+      "index": 21,
+      "source": "assets-original/parte-3/ezgif-frame-022.png",
+      "src": "/assets/parte-3/ezgif-frame-022.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1074691,
+      "bytes": 72156
+    },
+    {
+      "index": 22,
+      "source": "assets-original/parte-3/ezgif-frame-023.png",
+      "src": "/assets/parte-3/ezgif-frame-023.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1129044,
+      "bytes": 75552
+    },
+    {
+      "index": 23,
+      "source": "assets-original/parte-3/ezgif-frame-024.png",
+      "src": "/assets/parte-3/ezgif-frame-024.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1224172,
+      "bytes": 84150
+    },
+    {
+      "index": 24,
+      "source": "assets-original/parte-3/ezgif-frame-025.png",
+      "src": "/assets/parte-3/ezgif-frame-025.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1310908,
+      "bytes": 92306
+    },
+    {
+      "index": 25,
+      "source": "assets-original/parte-3/ezgif-frame-026.png",
+      "src": "/assets/parte-3/ezgif-frame-026.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1294790,
+      "bytes": 92614
+    },
+    {
+      "index": 26,
+      "source": "assets-original/parte-3/ezgif-frame-027.png",
+      "src": "/assets/parte-3/ezgif-frame-027.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1336051,
+      "bytes": 94968
+    },
+    {
+      "index": 27,
+      "source": "assets-original/parte-3/ezgif-frame-028.png",
+      "src": "/assets/parte-3/ezgif-frame-028.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1357536,
+      "bytes": 95174
+    },
+    {
+      "index": 28,
+      "source": "assets-original/parte-3/ezgif-frame-029.png",
+      "src": "/assets/parte-3/ezgif-frame-029.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1375324,
+      "bytes": 96558
+    },
+    {
+      "index": 29,
+      "source": "assets-original/parte-3/ezgif-frame-030.png",
+      "src": "/assets/parte-3/ezgif-frame-030.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1347465,
+      "bytes": 95408
+    },
+    {
+      "index": 30,
+      "source": "assets-original/parte-3/ezgif-frame-031.png",
+      "src": "/assets/parte-3/ezgif-frame-031.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1330463,
+      "bytes": 94642
+    },
+    {
+      "index": 31,
+      "source": "assets-original/parte-3/ezgif-frame-032.png",
+      "src": "/assets/parte-3/ezgif-frame-032.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1344027,
+      "bytes": 94386
+    },
+    {
+      "index": 32,
+      "source": "assets-original/parte-3/ezgif-frame-033.png",
+      "src": "/assets/parte-3/ezgif-frame-033.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1344848,
+      "bytes": 96530
+    },
+    {
+      "index": 33,
+      "source": "assets-original/parte-3/ezgif-frame-034.png",
+      "src": "/assets/parte-3/ezgif-frame-034.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1368862,
+      "bytes": 96488
+    },
+    {
+      "index": 34,
+      "source": "assets-original/parte-3/ezgif-frame-035.png",
+      "src": "/assets/parte-3/ezgif-frame-035.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1348306,
+      "bytes": 95924
+    },
+    {
+      "index": 35,
+      "source": "assets-original/parte-3/ezgif-frame-036.png",
+      "src": "/assets/parte-3/ezgif-frame-036.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1335921,
+      "bytes": 95960
+    },
+    {
+      "index": 36,
+      "source": "assets-original/parte-3/ezgif-frame-037.png",
+      "src": "/assets/parte-3/ezgif-frame-037.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1347492,
+      "bytes": 95684
+    },
+    {
+      "index": 37,
+      "source": "assets-original/parte-3/ezgif-frame-038.png",
+      "src": "/assets/parte-3/ezgif-frame-038.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1359825,
+      "bytes": 96662
+    },
+    {
+      "index": 38,
+      "source": "assets-original/parte-3/ezgif-frame-039.png",
+      "src": "/assets/parte-3/ezgif-frame-039.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1394088,
+      "bytes": 97940
+    },
+    {
+      "index": 39,
+      "source": "assets-original/parte-3/ezgif-frame-040.png",
+      "src": "/assets/parte-3/ezgif-frame-040.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1366860,
+      "bytes": 96798
+    },
+    {
+      "index": 40,
+      "source": "assets-original/parte-3/ezgif-frame-041.png",
+      "src": "/assets/parte-3/ezgif-frame-041.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1350602,
+      "bytes": 96594
+    },
+    {
+      "index": 41,
+      "source": "assets-original/parte-3/ezgif-frame-042.png",
+      "src": "/assets/parte-3/ezgif-frame-042.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1367453,
+      "bytes": 96634
+    },
+    {
+      "index": 42,
+      "source": "assets-original/parte-3/ezgif-frame-043.png",
+      "src": "/assets/parte-3/ezgif-frame-043.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1363628,
+      "bytes": 96574
+    },
+    {
+      "index": 43,
+      "source": "assets-original/parte-3/ezgif-frame-044.png",
+      "src": "/assets/parte-3/ezgif-frame-044.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1404260,
+      "bytes": 97990
+    },
+    {
+      "index": 44,
+      "source": "assets-original/parte-3/ezgif-frame-045.png",
+      "src": "/assets/parte-3/ezgif-frame-045.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1390904,
+      "bytes": 97830
+    },
+    {
+      "index": 45,
+      "source": "assets-original/parte-3/ezgif-frame-046.png",
+      "src": "/assets/parte-3/ezgif-frame-046.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1382396,
+      "bytes": 97822
+    },
+    {
+      "index": 46,
+      "source": "assets-original/parte-3/ezgif-frame-047.png",
+      "src": "/assets/parte-3/ezgif-frame-047.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1393804,
+      "bytes": 97988
+    },
+    {
+      "index": 47,
+      "source": "assets-original/parte-3/ezgif-frame-048.png",
+      "src": "/assets/parte-3/ezgif-frame-048.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1420328,
+      "bytes": 100532
+    },
+    {
+      "index": 48,
+      "source": "assets-original/parte-3/ezgif-frame-049.png",
+      "src": "/assets/parte-3/ezgif-frame-049.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1438328,
+      "bytes": 101928
+    },
+    {
+      "index": 49,
+      "source": "assets-original/parte-3/ezgif-frame-050.png",
+      "src": "/assets/parte-3/ezgif-frame-050.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1407343,
+      "bytes": 99768
+    },
+    {
+      "index": 50,
+      "source": "assets-original/parte-3/ezgif-frame-051.png",
+      "src": "/assets/parte-3/ezgif-frame-051.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1398674,
+      "bytes": 100460
+    },
+    {
+      "index": 51,
+      "source": "assets-original/parte-3/ezgif-frame-052.png",
+      "src": "/assets/parte-3/ezgif-frame-052.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1407184,
+      "bytes": 99556
+    },
+    {
+      "index": 52,
+      "source": "assets-original/parte-3/ezgif-frame-053.png",
+      "src": "/assets/parte-3/ezgif-frame-053.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1405617,
+      "bytes": 99382
+    },
+    {
+      "index": 53,
+      "source": "assets-original/parte-3/ezgif-frame-054.png",
+      "src": "/assets/parte-3/ezgif-frame-054.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1436701,
+      "bytes": 101512
+    },
+    {
+      "index": 54,
+      "source": "assets-original/parte-3/ezgif-frame-055.png",
+      "src": "/assets/parte-3/ezgif-frame-055.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1412987,
+      "bytes": 99558
+    },
+    {
+      "index": 55,
+      "source": "assets-original/parte-3/ezgif-frame-056.png",
+      "src": "/assets/parte-3/ezgif-frame-056.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1405071,
+      "bytes": 99814
+    },
+    {
+      "index": 56,
+      "source": "assets-original/parte-3/ezgif-frame-057.png",
+      "src": "/assets/parte-3/ezgif-frame-057.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1416256,
+      "bytes": 99592
+    },
+    {
+      "index": 57,
+      "source": "assets-original/parte-3/ezgif-frame-058.png",
+      "src": "/assets/parte-3/ezgif-frame-058.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1426705,
+      "bytes": 99508
+    },
+    {
+      "index": 58,
+      "source": "assets-original/parte-3/ezgif-frame-059.png",
+      "src": "/assets/parte-3/ezgif-frame-059.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1440624,
+      "bytes": 101378
+    },
+    {
+      "index": 59,
+      "source": "assets-original/parte-3/ezgif-frame-060.png",
+      "src": "/assets/parte-3/ezgif-frame-060.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1407236,
+      "bytes": 98938
+    },
+    {
+      "index": 60,
+      "source": "assets-original/parte-3/ezgif-frame-061.png",
+      "src": "/assets/parte-3/ezgif-frame-061.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1397893,
+      "bytes": 99110
+    },
+    {
+      "index": 61,
+      "source": "assets-original/parte-3/ezgif-frame-062.png",
+      "src": "/assets/parte-3/ezgif-frame-062.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1395612,
+      "bytes": 98078
+    },
+    {
+      "index": 62,
+      "source": "assets-original/parte-3/ezgif-frame-063.png",
+      "src": "/assets/parte-3/ezgif-frame-063.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1379532,
+      "bytes": 97116
+    },
+    {
+      "index": 63,
+      "source": "assets-original/parte-3/ezgif-frame-064.png",
+      "src": "/assets/parte-3/ezgif-frame-064.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1405097,
+      "bytes": 98442
+    },
+    {
+      "index": 64,
+      "source": "assets-original/parte-3/ezgif-frame-065.png",
+      "src": "/assets/parte-3/ezgif-frame-065.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1384686,
+      "bytes": 97462
+    },
+    {
+      "index": 65,
+      "source": "assets-original/parte-3/ezgif-frame-066.png",
+      "src": "/assets/parte-3/ezgif-frame-066.webp",
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "sourceBytes": 1375009,
+      "bytes": 97132
+    }
+  ]
+}
