@@ -18,9 +18,9 @@ export default function Home() {
         <ScrollSequence sequence={kitchen} />
         <section className="quiet-section" id="pausa">
           <h2>
-            A sua mudança de vida
+            Sua próxima conquista começa
             <br />{" "}
-            está em um <em>pequeno passo.</em>
+            com uma <em>escolha de confiança.</em>
           </h2>
         </section>
         <ScrollSequence sequence={pool} />
@@ -37,9 +37,9 @@ export default function Home() {
         </a>
         <p>© {new Date().getFullYear()} Imobiliária Luxury</p>
         <p>
-          Projeto conceitual de portfólio.
+          Imagens ilustrativas.
           <br />
-          Imagens e ambientes demonstrativos.
+          A residência exibida é uma referência visual.
         </p>
         <div className="footer-access">
           <MotionPreference />

@@ -3,20 +3,20 @@ import { useState } from "react";
 
 const values = [
   [
-    "Exclusividade",
-    "Uma seleção de espaços que fogem do comum. Arquitetura, atmosfera e personalidade reunidas para quem valoriza viver de maneira extraordinária.",
+    "Atendimento personalizado",
+    "Cada busca começa com uma história. Queremos entender suas prioridades para que a procura por um imóvel faça sentido para você.",
   ],
   [
-    "Privacidade",
-    "A verdadeira sofisticação também está na tranquilidade. Descubra o valor de encontrar um lugar que respeite seu tempo e seu espaço.",
+    "Exclusividade",
+    "Explore imóveis que combinam com diferentes estilos de vida. Uma boa escolha começa quando você conhece suas opções.",
   ],
   [
     "Confiança",
-    "Grandes decisões merecem atenção aos detalhes. Clareza, cuidado e uma experiência de descoberta conduzida com elegância.",
+    "Decisões imobiliárias merecem atenção. Valorizamos uma comunicação clara, o respeito às suas dúvidas e a transparência.",
   ],
   [
-    "Experiência",
-    "Não se trata apenas de conhecer ambientes, mas de imaginar os momentos que poderão acontecer dentro deles.",
+    "Sua próxima conquista",
+    "Encontre um lugar para seus próximos planos. Conheça nosso catálogo e comece sua busca.",
   ],
 ];
 export function Values() {
@@ -31,17 +31,17 @@ export function Values() {
         <div>
           <p className="eyebrow">A ESSÊNCIA LUXURY</p>
           <h2 id="values-title">
-            A experiência de viver
-            <br />
-            com <em>exclusividade.</em>
+            Por que escolher a
+            <br />{" "}
+            <em>Imobiliária Luxury?</em>
           </h2>
         </div>
         <p>
-          Mais do que encontrar um imóvel,{" "}
+          Uma experiência imobiliária
           <br />{" "}
-          descobrir o lugar certo para{" "}
+          que valoriza suas necessidades
           <br />{" "}
-          sua próxima história.
+          e a importância de cada decisão.
         </p>
       </div>
       <div className="value-cards" onMouseLeave={() => setActive(null)}>
@@ -88,7 +88,7 @@ export function Values() {
         ))}
       </div>
       <p className="values-footnote">
-        <span /> O verdadeiro luxo é encontrar o seu lugar.
+        <span /> Um bom atendimento começa com escuta.
       </p>
     </section>
   );

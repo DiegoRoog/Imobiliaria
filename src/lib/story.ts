@@ -33,146 +33,159 @@ const compact = (manifest: typeof part1) => ({
 
 const arrivalChapters = [
   [
-    "UM CONVITE PARA ENTRAR",
-    "Alguns lugares mudam a nossa maneira de olhar.",
-    "Antes da primeira porta, existe uma sensação. A paisagem se abre, a arquitetura se revela e a ideia de chegar em casa ganha um novo significado.",
-    "Paisagem • Arquitetura • Presença",
+    "BOAS ESCOLHAS",
+    "Grandes conquistas começam com boas escolhas.",
+    "Encontrar o imóvel certo é uma decisão importante. E toda grande decisão merece atenção.",
+    "ESCUTA • CLAREZA • PROXIMIDADE",
   ],
   [
-    "EM HARMONIA COM O ENTORNO",
-    "A natureza faz parte da experiência.",
-    "O verde emoldura a residência e acompanha a aproximação. Entre caminhos, jardins e novas perspectivas, cada olhar encontra um motivo para desacelerar.",
-    "O tempo ganha outro ritmo",
+    "CONHEÇA A IMOBILIÁRIA LUXURY",
+    "Mais do que imóveis, novas possibilidades.",
+    "Na Imobiliária Luxury, acreditamos que cada busca tem uma história, uma prioridade e um novo começo.",
+    "CADA BUSCA TEM SUA HISTÓRIA",
   ],
   [
-    "UMA NOVA PERSPECTIVA",
-    "Há beleza no caminho, não apenas na chegada.",
-    "A vista aérea dá lugar a uma descoberta mais próxima. Volumes, proporções e a relação com a paisagem começam a revelar a personalidade da residência.",
-    "Uma descoberta a cada movimento",
+    "SEU PRÓXIMO ENDEREÇO",
+    "Seu próximo endereço merece atenção aos detalhes.",
+    "Descubra oportunidades e explore possibilidades que combinam com o seu estilo de vida.",
+    "LOCALIZAÇÃO • ESPAÇO • ESTILO DE VIDA",
   ],
   [
-    "ARQUITETURA QUE PERMANECE",
-    "O extraordinário se revela nos detalhes.",
-    "A composição da fachada, a simetria e os elementos clássicos criam uma presença marcante. Uma arquitetura que convida a olhar mais uma vez.",
-    "Proporção • Textura • Identidade",
+    "CONVERSAS COM CLAREZA",
+    "Confiança para dar o próximo passo.",
+    "Uma boa experiência imobiliária começa com informações claras e uma conversa que entende suas necessidades.",
+    "SUAS PERGUNTAS FAZEM PARTE DA ESCOLHA",
   ],
   [
-    "A ARTE DE CHEGAR",
-    "Imagine voltar para um lugar assim.",
-    "Deixar o dia lá fora. Percorrer o caminho até a entrada. Reconhecer, nos pequenos rituais da chegada, a sensação de pertencer a um lugar.",
-    "Sua rotina, sob uma nova perspectiva",
+    "ATENDIMENTO PRÓXIMO",
+    "Uma imobiliária próxima das suas conquistas.",
+    "Estamos aqui para transformar dúvidas em caminhos e aproximar você das opções que procura.",
+    "COMECE PELO QUE IMPORTA PARA VOCÊ",
   ],
   [
-    "O PRIMEIRO PASSO",
-    "Toda porta guarda uma nova possibilidade.",
-    "A entrada é uma passagem entre o mundo e o seu espaço. O convite para descobrir ambientes, imaginar encontros e dar forma aos próximos planos.",
-    "Uma história ainda por escrever",
+    "A BUSCA É SUA",
+    "Cada pessoa procura algo diferente.",
+    "Mais espaço, uma nova localização, tranquilidade ou simplesmente o lugar ideal para começar outra etapa.",
+    "DEFINA AS SUAS PRIORIDADES",
   ],
   [
-    "SEJA BEM-VINDO",
-    "Uma nova forma de viver começa por dentro.",
-    "O olhar atravessa a entrada e encontra luz, amplitude e uma composição acolhedora. A experiência deixa de ser contemplação e passa a ser presença.",
-    "Entre. Permita-se descobrir.",
+    "CATÁLOGO DE IMÓVEIS",
+    "Explore. Compare. Descubra.",
+    "Conheça nosso catálogo de imóveis e encontre oportunidades para os seus próximos planos.",
+    "CONHEÇA AS OPÇÕES ANTES DE DECIDIR",
   ],
   [
-    "ESPAÇOS PARA COMPARTILHAR",
-    "O conforto também pode ser extraordinário.",
-    "Na sala, a arquitetura se aproxima da vida. Lugares para reunir pessoas, prolongar conversas e transformar um dia comum em uma lembrança especial.",
-    "Encontros • Convivência • Memórias",
-  ],
-  [
-    "A BELEZA DE FICAR",
-    "Um cenário para as histórias que importam.",
-    "A escada, os materiais e a luz desenham diferentes perspectivas do interior. Mais do que observar um ambiente, este é o momento de imaginar a vida acontecendo nele.",
-    "Detalhes que constroem uma atmosfera",
-  ],
-  [
-    "CONTINUE A DESCOBERTA",
-    "O seu lugar é aquele que faz sentido para você.",
-    "Uma escolha envolve atmosfera, desejos e a maneira como você quer viver. Continue a visita e descubra os espaços que dão continuidade a essa experiência.",
-    "A próxima cena espera por você",
+    "PRÓXIMOS PASSOS",
+    "A sua próxima conquista pode começar aqui.",
+    "Continue conhecendo a Imobiliária Luxury.",
+    "UMA NOVA ETAPA COMEÇA COM UMA ESCOLHA",
   ],
 ];
+
 const kitchenChapters = [
   [
-    "A ARTE DE ACOLHER",
-    "Onde a casa se transforma em encontro.",
-    "Há ambientes que naturalmente aproximam as pessoas. A cozinha é um deles: um lugar para preparar, compartilhar e fazer da convivência parte da rotina.",
-    "O cotidiano também merece ser especial",
+    "RELACIONAMENTO",
+    "Confiança é o primeiro passo.",
+    "Escolher um imóvel fica mais simples quando você tem espaço para perguntar, explorar e decidir com tranquilidade.",
+    "CONVERSE NO SEU RITMO",
   ],
   [
-    "MATERIAIS E SENSAÇÕES",
-    "Texturas que convidam a permanecer.",
-    "Madeira, pedra e tons quentes compõem a atmosfera deste ambiente. A combinação de superfícies e iluminação cria uma leitura acolhedora do espaço.",
-    "Madeira • Pedra • Luz",
+    "ATENÇÃO À SUA BUSCA",
+    "Uma escolha importante merece atenção.",
+    "Entender suas prioridades é essencial para encontrar oportunidades alinhadas aos seus planos.",
+    "SEUS OBJETIVOS ORIENTAM A BUSCA",
   ],
   [
-    "OLHE MAIS DE PERTO",
-    "O conforto mora na soma dos detalhes.",
-    "Os arcos, as luminárias e o desenho da ilha revelam novas camadas a cada movimento. Elementos que dialogam entre si e dão personalidade ao interior.",
-    "Uma composição para descobrir com calma",
+    "SEU ESTILO DE VIDA",
+    "Seu estilo de vida faz parte da escolha.",
+    "Cada detalhe pode fazer diferença. O importante é descobrir o que realmente importa para você.",
+    "PENSE EM COMO VOCÊ QUER VIVER",
   ],
   [
-    "NO CENTRO DA CONVIVÊNCIA",
-    "Algumas conversas começam ao redor da mesa.",
-    "Um café sem pressa, uma receita compartilhada, uma refeição que se estende. A casa também se revela nos momentos simples que você escolhe viver.",
-    "Pequenos rituais. Grandes lembranças.",
+    "CATÁLOGO DE IMÓVEIS",
+    "Conheça as possibilidades.",
+    "Explore nosso catálogo e descubra opções para diferentes necessidades e objetivos.",
+    "EXPLORE • COMPARE • ESCOLHA",
   ],
   [
-    "ESPAÇO PARA O SEU RITMO",
-    "A sua rotina merece um novo cenário.",
-    "Imagine manhãs tranquilas e noites entre pessoas queridas. Um ambiente ganha sentido quando acompanha os seus hábitos e abre espaço para novas possibilidades.",
-    "Viver bem tem um significado pessoal",
+    "DECIDA COM CLAREZA",
+    "Mais clareza. Mais confiança. Novos caminhos.",
+    "Uma conversa pode ajudar você a organizar suas prioridades e dar o próximo passo.",
+    "ESPAÇO PARA PERGUNTAR E DECIDIR",
   ],
   [
-    "O PRAZER DE RECEBER",
-    "Receber é criar espaço para o outro.",
-    "Mais do que preparar uma refeição, é compartilhar tempo e atenção. É transformar a casa em um ponto de encontro e deixar que as melhores histórias aconteçam.",
-    "Presença • Cuidado • Conexão",
-  ],
-  [
-    "ESCOLHAS COM SIGNIFICADO",
-    "Encontrar o seu lugar começa com um olhar atento.",
-    "Observe a luz, os materiais e as sensações que cada espaço desperta. Reconhecer o que faz sentido para você é parte essencial dessa descoberta.",
-    "Uma decisão que começa pelos seus desejos",
-  ],
-  [
-    "AINDA HÁ MAIS PARA VIVER",
-    "O próximo capítulo está logo adiante.",
-    "Depois dos encontros e dos detalhes do interior, a visita segue para um novo momento. Um convite para respirar, desacelerar e imaginar a vida além das paredes.",
-    "Continue. A experiência se abre lá fora.",
+    "VAMOS CONVERSAR",
+    "Estamos prontos para ouvir seus planos.",
+    "Entre em contato com a Imobiliária Luxury e comece a descobrir suas possibilidades.",
+    "ATENDIMENTO PRÓXIMO À SUA BUSCA",
   ],
 ];
-function chapters(content: string[][], until = 1): Cue[] {
+
+const poolChapters = [
+  [
+    "NOVOS PLANOS",
+    "Toda busca começa com um plano.",
+    "Mudar de bairro, ganhar espaço ou começar outra etapa. Conte à Imobiliária Luxury o que você procura.",
+    "FALE SOBRE SUAS PRIORIDADES",
+  ],
+  [
+    "CONHEÇA SUAS OPÇÕES",
+    "Olhe para além da primeira impressão.",
+    "Compare o que cada opção oferece e pense em como ela se encaixa na sua rotina.",
+    "UM IMÓVEL PARA O SEU ESTILO DE VIDA",
+  ],
+  [
+    "UMA DECISÃO NO SEU TEMPO",
+    "Escolha com tranquilidade.",
+    "Reúna suas perguntas e compartilhe o que é indispensável. Uma conversa pode dar mais clareza ao próximo passo.",
+    "ESPAÇO PARA TIRAR DÚVIDAS",
+  ],
+  [
+    "IMOBILIÁRIA LUXURY",
+    "O próximo passo é seu.",
+    "Conheça nossas oportunidades ou entre em contato para conversar sobre seus planos.",
+    "IMÓVEIS E ATENDIMENTO",
+  ],
+];
+
+function chapters(content: string[][], ends: number[]): Cue[] {
   return content.map(([eyebrow, title, text, detail], index) => ({
-    start: (index * until) / content.length,
-    end: ((index + 1) * until) / content.length,
+    start: ends[index - 1] ?? 0,
+    end: ends[index],
     eyebrow,
     title,
     text,
     detail,
   }));
 }
+
 export const arrival: Sequence = {
   ...compact(part1),
   id: "residencia",
   chapter: "01",
-  label: "O convite",
+  label: "A imobiliária",
   scrollVh: 1100,
   mobileVh: 850,
   poster: 69,
-  cues: chapters(arrivalChapters),
+  cues: chapters(
+    arrivalChapters,
+    [0.13, 0.29, 0.45, 0.59, 0.73, 0.82, 0.93, 1],
+  ),
 };
+
 export const kitchen: Sequence = {
   ...compact(part2),
   id: "ambientes",
   chapter: "02",
-  label: "A arte de acolher",
+  label: "Atendimento e confiança",
   scrollVh: 850,
   mobileVh: 700,
   poster: 32,
-  cues: chapters(kitchenChapters),
+  cues: chapters(kitchenChapters, [0.16, 0.33, 0.5, 0.67, 0.84, 1]).map(
+    (cue, index) => ({ ...cue, side: index % 2 === 0 ? "left" : "right" }),
+  ),
 };
+
 export const pool: Sequence = {
   ...compact(part3),
   id: "proximo-capitulo",
@@ -182,33 +195,5 @@ export const pool: Sequence = {
   mobileVh: 550,
   poster: 65,
   final: true,
-  cues: chapters(
-    [
-      [
-        "UM NOVO HORIZONTE",
-        "A vida também acontece do lado de fora.",
-        "A passagem se abre para uma nova atmosfera. A luz da noite encontra a água e a visita ganha um ritmo mais tranquilo, feito para apreciar o momento.",
-        "Respire. Há tempo para contemplar.",
-      ],
-      [
-        "TEMPO PARA O QUE IMPORTA",
-        "O privilégio de simplesmente estar.",
-        "Deixar os compromissos em pausa. Compartilhar uma conversa, observar os reflexos e permitir que o tempo seja vivido com mais presença.",
-        "Tranquilidade • Encontro • Bem-estar",
-      ],
-      [
-        "OUTRA LUZ, NOVAS SENSAÇÕES",
-        "Um mesmo lugar. Infinitas possibilidades.",
-        "As galerias iluminadas emolduram a piscina e revelam outra leitura da arquitetura. Um cenário para imaginar noites especiais e momentos que ficam na memória.",
-        "A beleza de viver cada instante",
-      ],
-      [
-        "UM CONVITE PARA IMAGINAR",
-        "Que histórias você gostaria de viver aqui?",
-        "A melhor parte de descobrir um lugar é perceber as possibilidades que ele desperta. Seus planos, suas pessoas e uma nova maneira de aproveitar o tempo.",
-        "O próximo passo começa com você",
-      ],
-    ],
-    0.57,
-  ),
+  cues: chapters(poolChapters, [0.14, 0.28, 0.43, 0.57]),
 };

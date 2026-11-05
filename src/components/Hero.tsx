@@ -126,7 +126,7 @@ export function Hero() {
       ref={root}
       className={`hero ${night ? "is-night" : ""}`}
       id="inicio"
-      aria-label="A residência de dia e de noite"
+      aria-label="Imobiliária Luxury"
     >
       <div className="hero-photos" aria-hidden="true">
         <img
@@ -163,7 +163,7 @@ export function Hero() {
           />
         </a>
         <nav aria-label="Navegação principal">
-          <a href="#residencia">A residência</a>
+          <a href="#residencia">A imobiliária</a>
           <a href="#essencia">Nossa essência</a>
           <a className="nav-contact" href="#contato">
             Vamos conversar <Arrow />
@@ -172,19 +172,19 @@ export function Hero() {
       </header>
       <div className="hero-copy">
         <p className="eyebrow">
-          <span /> ARQUITETURA. PRESENÇA. POSSIBILIDADES.
+          <span /> IMOBILIÁRIA BOUTIQUE
         </p>
         <h1>
-          A exclusividade
-          <br />
-          não conhece <em>horários.</em>
+          O imóvel ideal
+          <br />{" "}
+          começa com a <em>escolha certa.</em>
         </h1>
         <p className="hero-description">
-          Descubra uma arquitetura que encanta
-          <br className="desktop-only" /> sob qualquer luz.
+          Na Imobiliária Luxury, cada nova busca é uma oportunidade de
+          encontrar o lugar que combina com seus planos.
         </p>
         <a className="text-link hero-link" href="#residencia">
-          Explore a residência <Arrow />
+          Conheça a imobiliária <Arrow />
         </a>
       </div>
       <div className="hero-bottom">
@@ -194,11 +194,11 @@ export function Hero() {
         </a>
         <div className="light-controls">
           <p className="pointer-hint">Mova o cursor para revelar a noite.</p>
-          <p className="touch-hint">Explore a mansão de dia e de noite.</p>
+          <p className="touch-hint">Veja a cena de dia e de noite.</p>
           <div
             className="light-switch"
             role="group"
-            aria-label="Iluminação da residência"
+            aria-label="Iluminação da cena"
           >
             <button onClick={() => select(false)} aria-pressed={!night}>
               <Sun /> Dia

@@ -103,15 +103,18 @@ export function ScrollSequence({ sequence }: { sequence: Sequence }) {
       );
       captions.forEach((caption, i) => {
         const cue = sequence.cues[i];
-        const fadeIn =
-          cue.start === 0 ? 1 : clamp((progress - cue.start) / 0.018);
-        const fadeOut = cue.end === 1 ? 1 : clamp((cue.end - progress) / 0.018);
-        const opacity =
-          progress >= cue.start && progress <= cue.end
-            ? Math.min(fadeIn, fadeOut)
-            : 0;
+        const withinCue = progress >= cue.start && progress <= cue.end;
+        const cueProgress = clamp((progress - cue.start) / (cue.end - cue.start));
+        // Make the opening text readable as soon as its scene arrives.
+        const phase = cue.start === 0 ? 0.2 + cueProgress * 0.8 : cueProgress;
+        const distance = 1 - 2 * phase;
+        // Slow down around the reading area without stopping the text.
+        const offset = 0.32 * distance + 0.68 * distance ** 3;
+        const opacity = withinCue
+          ? Math.min(clamp(phase / 0.12), clamp((1 - phase) / 0.12))
+          : 0;
         caption.style.opacity = String(opacity);
-        caption.style.transform = `translateY(${(1 - opacity) * 12}px)`;
+        caption.style.setProperty("--caption-offset", String(offset));
         caption.style.visibility = opacity > 0 ? "visible" : "hidden";
         caption.setAttribute("aria-hidden", String(opacity < 0.3));
       });
@@ -163,6 +166,18 @@ export function ScrollSequence({ sequence }: { sequence: Sequence }) {
     };
   }, [sequence, reduced]);
 
+  const readingCopy = reduced && (
+    <div className="reduced-story section-pad">
+      {sequence.cues.map((cue) => (
+        <div key={cue.title}>
+          <h2>{cue.title}</h2>
+          <p>{cue.text}</p>
+          {cue.detail && <p className="eyebrow">{cue.detail}</p>}
+        </div>
+      ))}
+    </div>
+  );
+
   return (
     <section
       ref={root}
@@ -179,6 +194,7 @@ export function ScrollSequence({ sequence }: { sequence: Sequence }) {
       {sequence.final && (
         <span className="contact-anchor" id="contato" aria-hidden="true" />
       )}
+      {sequence.final && readingCopy}
       <div className="sequence-stage" ref={stage}>
         <img
           className="sequence-poster"
@@ -206,7 +222,7 @@ export function ScrollSequence({ sequence }: { sequence: Sequence }) {
         {!reduced &&
           sequence.cues.map((cue, i) => (
             <div
-              className="sequence-caption caption-center"
+              className={`sequence-caption caption-${cue.side ?? "center"}`}
               key={cue.title}
               aria-hidden={i !== 0}
               style={{
@@ -226,14 +242,13 @@ export function ScrollSequence({ sequence }: { sequence: Sequence }) {
             style={reduced ? undefined : { opacity: 0, visibility: "hidden" }}
             inert={!reduced}
           >
-            <p className="eyebrow">O EXTRAORDINÁRIO ESPERA POR VOCÊ</p>
+            <p className="eyebrow">IMOBILIÁRIA LUXURY</p>
             <h2>
-              Seu próximo capítulo <br /> começa <em>aqui.</em>
+              O próximo capítulo da sua história <br /> começa <em>aqui.</em>
             </h2>
             <p>
-              Um novo endereço. Novas histórias.
-              <br />
-              Uma experiência de viver que começa com a escolha certa.
+              Explore nosso catálogo de imóveis e descubra novas possibilidades
+              com a Imobiliária Luxury.
             </p>
             <Contact />
           </div>
@@ -259,17 +274,7 @@ export function ScrollSequence({ sequence }: { sequence: Sequence }) {
         )}
         <div className="sequence-exit" />
       </div>
-      {reduced && !sequence.final && (
-        <div className="reduced-story section-pad">
-          {sequence.cues.map((cue) => (
-            <div key={cue.title}>
-              <h2>{cue.title}</h2>
-              <p className="caption-body">{cue.text}</p>
-              {cue.detail && <p className="caption-detail">{cue.detail}</p>}
-            </div>
-          ))}
-        </div>
-      )}
+      {!sequence.final && readingCopy}
     </section>
   );
 }

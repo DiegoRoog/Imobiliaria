@@ -7,7 +7,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Imobiliária Luxury — Uma nova forma de viver",
   description:
-    "Uma experiência de arquitetura, luz e possibilidades. Explore a Imobiliária Luxury, um projeto conceitual de residências extraordinárias.",
+    "Conheça a Imobiliária Luxury e descubra como começar a busca por um imóvel que combine com seus planos.",
   robots: { index: false, follow: false },
 };
 

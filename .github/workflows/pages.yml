@@ -30,6 +30,8 @@ jobs:
         env:
           GITHUB_PAGES: 'true'
           NEXT_PUBLIC_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+      - name: Verify static export
+        run: test -s out/index.html && test -d out/_next && test -d out/assets
       - uses: actions/upload-pages-artifact@v4
         with:
           path: out

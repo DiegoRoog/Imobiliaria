@@ -552,6 +552,14 @@ svg {
   transform: translateY(0);
   transition: transform 0.6s var(--ease);
 }
+@media (min-width: 701px) and (max-width: 1050px) {
+  .value-card .card-trigger {
+    padding-inline: 12px;
+  }
+  .value-card .card-title {
+    font-size: clamp(17px, 2.5vw, 26px);
+  }
+}
 .card-plus {
   position: absolute;
   right: 26px;
@@ -1280,6 +1288,7 @@ html[data-reduced-motion="true"] *:after {
   padding: 12px 8px;
   scrollbar-width: thin;
   text-shadow: 0 2px 24px rgba(0, 0, 0, 0.3);
+  transform: translate3d(0, calc(var(--caption-offset, 0.34) * (50svh + 50%)), 0);
 }
 .sequence-caption:before {
   display: none;
@@ -1314,6 +1323,27 @@ html[data-reduced-motion="true"] *:after {
   color: #e5ceaa;
   letter-spacing: 0.13em;
   text-transform: uppercase;
+}
+@media (min-width: 701px) {
+  .sequence-caption:is(.caption-left, .caption-right) {
+    width: min(530px, 42%);
+    translate: 0 -50%;
+    text-align: left;
+  }
+  .sequence-caption.caption-left {
+    left: 6%;
+    right: auto;
+  }
+  .sequence-caption.caption-right {
+    left: auto;
+    right: 6%;
+  }
+  .sequence-caption:is(.caption-left, .caption-right) h2 {
+    font-size: clamp(34px, 3.4vw, 55px);
+  }
+  .sequence-caption:is(.caption-left, .caption-right) > :is(.caption-body, .caption-detail) {
+    margin-inline: 0;
+  }
 }
 .final-copy {
   top: 50%;

@@ -3,14 +3,16 @@ import { useRef, useState } from "react";
 import { contactLinks } from "@/lib/config";
 import { Arrow } from "./Icons";
 
+type ContactDestination = keyof typeof contactLinks;
+
 export function Contact() {
   const dialog = useRef<HTMLDialogElement>(null);
-  const [kind, setKind] = useState<"social" | "contact">("contact");
-  const open = (value: "social" | "contact") => {
+  const [kind, setKind] = useState<ContactDestination>("contact");
+  const open = (value: ContactDestination) => {
     setKind(value);
     dialog.current?.showModal();
   };
-  const action = (type: "social" | "contact", label: string) =>
+  const action = (type: ContactDestination, label: string) =>
     contactLinks[type] ? (
       <a
         className={`button ${type === "contact" ? "button-gold" : "button-outline"}`}
@@ -33,7 +35,7 @@ export function Contact() {
   return (
     <>
       <div className="contact-actions">
-        {action("social", "Conheça nossas redes sociais")}
+        {action("catalog", "Conheça nossos imóveis")}
         {action("contact", "Entre em contato conosco")}
       </div>
       <dialog
@@ -53,15 +55,14 @@ export function Contact() {
         </button>
         <p className="eyebrow">IMOBILIÁRIA LUXURY</p>
         <h2 id="contact-dialog-title">
-          {kind === "social"
-            ? "Inspiração para uma nova forma de viver."
+          {kind === "catalog"
+            ? "Catálogo de imóveis"
             : "Toda nova história começa com uma conversa."}
         </h2>
         <p>
-          Esta é uma experiência conceitual de portfólio.{" "}
-          {kind === "social"
-            ? "Os perfis sociais ainda não estão vinculados."
-            : "Os canais de atendimento ainda não estão vinculados."}
+          {kind === "catalog"
+            ? "O catálogo da Imobiliária Luxury ainda não está disponível nesta página."
+            : "O canal de atendimento da Imobiliária Luxury ainda não está vinculado a esta página."}
         </p>
         <p>Nenhuma informação pessoal é coletada nesta demonstração.</p>
         <button
