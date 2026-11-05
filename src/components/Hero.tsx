@@ -2,6 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Arrow, Sun, Moon } from "./Icons";
 import { motionIsReduced } from "@/lib/motion";
+import { assetUrl } from "@/lib/asset-url";
 
 export function Hero() {
   const root = useRef<HTMLElement>(null);
@@ -131,7 +132,7 @@ export function Hero() {
         <img
           ref={nightImage}
           className="hero-photo night-photo"
-          src="/assets/noite.webp"
+          src={assetUrl("/assets/noite.webp")}
           alt=""
           width="1672"
           height="941"
@@ -140,7 +141,7 @@ export function Hero() {
         <img
           ref={day}
           className="hero-photo day-photo"
-          src="/assets/dia.webp"
+          src={assetUrl("/assets/dia.webp")}
           alt=""
           width="1672"
           height="941"
@@ -155,7 +156,7 @@ export function Hero() {
           aria-label="Imobiliária Luxury — início"
         >
           <img
-            src="/assets/logo.webp"
+            src={assetUrl("/assets/logo.webp")}
             alt="Imobiliária Luxury"
             width="2508"
             height="627"

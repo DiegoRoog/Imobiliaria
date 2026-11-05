@@ -3,6 +3,7 @@ import { Values } from "@/components/Values";
 import { ScrollSequence } from "@/components/ScrollSequence";
 import { arrival, kitchen, pool } from "@/lib/story";
 import { MotionPreference } from "@/components/MotionPreference";
+import { assetUrl } from "@/lib/asset-url";
 
 export default function Home() {
   return (
@@ -27,7 +28,7 @@ export default function Home() {
       <footer id="rodape">
         <a href="#inicio" aria-label="Voltar ao início">
           <img
-            src="/assets/logo.webp"
+            src={assetUrl("/assets/logo.webp")}
             width="2508"
             height="627"
             alt="Imobiliária Luxury"

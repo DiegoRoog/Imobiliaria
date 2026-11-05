@@ -1,6 +1,7 @@
 import part1 from "../../public/assets/parte-1.json";
 import part2 from "../../public/assets/parte-2.json";
 import part3 from "../../public/assets/parte-3.json";
+import { assetUrl } from "./asset-url";
 
 export type Cue = {
   start: number;
@@ -25,7 +26,7 @@ export type Sequence = {
   final?: boolean;
 };
 const compact = (manifest: typeof part1) => ({
-  frames: manifest.frames.map((frame) => frame.src),
+  frames: manifest.frames.map((frame) => assetUrl(frame.src)),
   width: manifest.width,
   height: manifest.height,
 });
